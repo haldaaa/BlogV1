@@ -5,9 +5,6 @@
 $email = "aa@aa.fr";
 $password= "123456";
 
-$description = $_POST['description'];
-$auteur = $_POST['auteur'];
-
 
 // Traitement formulaire LOG
 
@@ -51,7 +48,7 @@ $affichage_resultat = $affichage -> fetchAll();
 
 				<ul class="nav nav-pills">
 				  <li role="presentation" class="active"><a href="#">Home</a></li>
-				  <li role="presentation"><a href="#">Page 1</a></li>
+				  <li role="presentation"><a href="#"> Article</a></li>
 				  <li role="presentation"><a href="#">Page 2</a></li>
 				  <li role="presentation"><a href="#">Admin</a></li>
 				</ul>
